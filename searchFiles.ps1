@@ -3,6 +3,8 @@
 Add-Type -AssemblyName System.Windows.Forms
 # $EF = New-Object ([System.IO.SearchOption]::AllDirectories)
 
+#TODO http://blog.livedoor.jp/morituri/archives/54566494.html
+
 # 引数値でディレクトリ内検索を行う
 function SearchDirectories {
     #[CmdletBinding()]
