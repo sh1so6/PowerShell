@@ -26,7 +26,7 @@ Function Main()
     Process
     {
         $str = "HKCU:\SOFTWARE\Classes\AllFilesystemObjects"
-        if (!(Get-ItemProperty $str -ErrorAction SilentlyContinue))
+        if (!(Test-Path $str -ErrorAction SilentlyContinue))
         {
             MakeRecursiveRegistry($str)
         }
