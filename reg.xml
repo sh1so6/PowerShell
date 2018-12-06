@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+    <!-- HKEY_CURRENT_USER -->
+    <HKCU:>
+        <Software>
+            <Classs>
+                <AllFilesystemObjects>
+                    <shell>
+                        <hoodoo>
+                            <MUIVerb>hoodoo</MUIVerb>
+                            
+                        </hoodoo>
+                    </shell>
+                </AllFilesystemObjects>
+                <Directory>
+                    <shell>
+
+                    </shell>
+                    <Background>
+                        <shell>
+
+                        </shell>
+                    </Background>
+                </Directory>
+            </Classs>
+        </Software>
+    </HKCU:>
+    <!-- HKEY_CLASSES_ROOT -->
+    <HKCR:>
+
+    </HKCR:>
+</ROOT>
+
+            
