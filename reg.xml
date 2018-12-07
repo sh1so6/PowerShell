@@ -1,34 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROOT>
     <!-- HKEY_CURRENT_USER -->
-    <HKCU:>
+    <HKCU>
         <Software>
-            <Classs>
+            <Class>
                 <AllFilesystemObjects>
                     <shell>
                         <hoodoo>
-                            <MUIVerb>hoodoo</MUIVerb>
-                            
+                            <MUIVerb>
+                                hoodoo
+                            </MUIVerb>
+                            <ExtendedSubCommandsKey>
+                                hoodoo
+                            </ExtendedSubCommandsKey>
+                            <Position>
+                                Top
+                            </Position>
+                            <!--
+                                <Icon></Icon>
+                            -->
                         </hoodoo>
                     </shell>
                 </AllFilesystemObjects>
                 <Directory>
                     <shell>
-
+                        <hoodoo>
+                            <MUIVerb>
+                                hoodoo
+                            </MUIVerb>
+                            <ExtendedSubCommandsKey>
+                                hoodoo
+                            </ExtendedSubCommandsKey>
+                            <Position>
+                                Top
+                            </Position>
+                            <!--
+                                <Icon></Icon>
+                            -->
+                        </hoodoo>
                     </shell>
                     <Background>
                         <shell>
-
+                            <hoodoo>
+                                <MUIVerb>
+                                    hoodoo
+                                </MUIVerb>
+                                <ExtendedSubCommandsKey>
+                                    hoodoo
+                                </ExtendedSubCommandsKey>
+                                <Position>
+                                    Top
+                                </Position>
+                                <!--
+                                    <Icon></Icon>
+                                -->
+                            </hoodoo>
                         </shell>
                     </Background>
                 </Directory>
-            </Classs>
+            </Class>
         </Software>
-    </HKCU:>
+    </HKCU>
     <!-- HKEY_CLASSES_ROOT -->
-    <HKCR:>
-
-    </HKCR:>
+    <HKCR>
+        <hoodoo>
+            <Files>
+                <MUIVerb>
+                    ファイル操作
+                </MUIVerb>
+            </Files>
+        </hoodoo>
+    </HKCR>
 </ROOT>
 
             
